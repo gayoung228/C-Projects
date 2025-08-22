@@ -6,10 +6,10 @@
 struct phone_book {
     char name[20];
     char phone[15];
-    int birth;
+    int birth; 
 };
 
-enum { NAME, PHONE, BIRTH }; // 0, 1, 2
+enum { NAME, PHONE, BIRTH }; // 0, 1, 2 
 
 int qty = 0; // 현재까지 등록된 학생 수 (예: qty = 0이면 아무도 없음). qty = 0 → list[0]에 새 정보 저장
 
