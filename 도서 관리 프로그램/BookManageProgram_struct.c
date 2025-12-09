@@ -1,3 +1,4 @@
+//구조체 사용한 도서 관리 프로그램
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 
