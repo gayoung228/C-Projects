@@ -6,6 +6,8 @@
 int main() {
 
 	int player1, player2;
+	int total, p1wins, p2wins, ties;
+	total = p1wins = p2wins = ties = 0;
 
 	while (1) {
 		printf("========== 가위 바위 보 게임 ==========\n");
@@ -23,16 +25,17 @@ int main() {
 
 		switch (player1) {
 		case 0: // Rock
-			player2_move(player2);
+			player2_move(player2, &total, &p1wins, &p2wins, &ties);
 			break;
 		case 1: // Paper
-			player2_move(player2);
+			player2_move(player2, &total, &p1wins, &p2wins, &ties);
 			break;
 		case 2: // Scissors
-			player2_move(player2);
+			player2_move(player2, &total, &p1wins, &p2wins, &ties);
 			break;
 		case 3: // Exit
 			printf("Exiting the game.\n");
+			print_status(total, p1wins, p2wins, ties);
 			return 0;
 		}
 	}
