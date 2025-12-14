@@ -10,7 +10,6 @@ void displayWord(const char guessedWord[]) {
 	printf("\n");
 }
 
-
 void displayHangman(int tries) {
 	const char* hangmanParts[] = {
 		"     _________",
