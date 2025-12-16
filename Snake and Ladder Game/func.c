@@ -15,14 +15,14 @@ void printBoard() {
 		board[i] = i;
 	}
 
-	int alt = 0; //출력 방향 결정
+	int alt = 0; //출력 방향 결정(줄이 바뀔 때마다 0과 1로 변경)
 	int iterLR = 101; //왼쪽에서 오른쪽으로
 	int iterRL = 80; //오른쪽에서 왼쪽으로
 	int val = 100; //보드를 몇 번 출력할지 결정
 
 	while (val--) { //val이 0이 될 때까지 반복
-		if (alt == 0) {
-			iterLR--;
+		if (alt == 0) { //alt가 0일 때 왼쪽에서 오른쪽으로 출력
+			iterLR--; //숫자를 줄여가며 출력
 			if (iterLR == player1) {
 				printf("#P1    ");
 			}
@@ -35,12 +35,12 @@ void printBoard() {
 
 			if (iterLR % 10 == 1) { //나머지가 1일 때 줄 바꿈
 				printf("\n\n");
-				alt = 1;
-				iterLR -= 10;
+				alt = 1; //방향 변경
+				iterLR -= 10; //다음 줄의 오른쪽 끝으로 이동
 			}
 		}
 		else {
-			iterRL++;
+			iterRL++; //숫자를 늘려가며 출력
 			if (iterRL == player1) {
 				printf("#P1    ");
 			}
@@ -82,7 +82,7 @@ int movePlayer(int currentPlayer, int roll) {
 	snakesLadders[85] = -4;  // 뱀
 	snakesLadders[92] = -10; // 뱀
 
-	int newSquare = newPosition + snakesLadders[newPosition];
+	int newSquare = newPosition + snakesLadders[newPosition]; 
 
 	if (newSquare > 100) {
 		return currentPlayer; // 100을 넘으면 이동하지 않음
