@@ -4,6 +4,11 @@
 > **콘솔 기반 행맨(Hangman) 게임 프로젝트**입니다.
 
 ---
+## 시연 영상
+
+![hangman](https://github.com/user-attachments/assets/c299ceb5-e5b9-4f2e-b36b-684750abd88e)
+
+---
 
 ## 📌 프로젝트 개요
 
