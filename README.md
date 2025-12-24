@@ -14,6 +14,8 @@ C 언어의 다양한 기능을 연습하고 확장해 나가기 위한 목적�
 | [`Rock Scissors Paper Game`](./Rock%20Scissors%20Paper%20Game) | 두 명의 사용자가 가위, 바위, 보 중 하나를 선택해 승패를 겨루는 C언어 기반 콘솔 가위바위보 게임. |
 | [`Hangman Game`](./Hangman%20Game) | 제한된 횟수 안에 힌트를 보고 알파벳을 입력해 단어를 완성하는 방식의 C언어 기반 콘솔 행맨 게임. |
 | [`Snake and Ladder Game`](./Snake%20and%20Ladder%20Game) | 두 명의 사용자가 주사위를 굴려 이동하며 사다리는 올라가고 뱀은 내려가는 C언어 기반 콘솔 스네이크 앤 레더 게임. |
+| [`Dinosaur Game`](./Dinosaur%20Game) | 점프를 이용해 다가오는 장애물을 피하며 시간에 따라 점수를 얻는 C언어 기반 콘솔 공룡 달리기 게임. |
+
 
 ## 🛠️ 사용 기술
 
