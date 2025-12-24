@@ -11,7 +11,7 @@
 void SetConsoleView()
 {
 	system("mode con:cols=100 lines=25");
-	system("title Google Dinosaurs. By gayeong.");
+	system("title Google Dinosaurs Game. By gayeong.");
 }
 
 //커서의 위치를 x, y로 이동하는 함수
