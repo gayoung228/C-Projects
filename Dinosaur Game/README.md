@@ -4,7 +4,7 @@
 ---
 ## 시연 영상
 
-![dinosaur_game](https://github.com/user-attachments/assets/2744f109-6ed0-4870-932a-e0e6be04d981)
+![dinosaur_game (1)](https://github.com/user-attachments/assets/517fa508-cacd-487c-b270-ccefed11d8c6)
 
 ---
 
